@@ -1,0 +1,124 @@
+
+.badge {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url(../img/price/badge.png);
+    background-size: 100% 100%;
+    width: 50px;
+    height: 61px;
+    background-color: transparent;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 16px;
+}
+.badge.zero {
+    background-image: url(../images/badge_gift.png);
+}
+.badge.point {
+    font-size: 12px;
+    padding-top: 12px;
+}
+.badge:empty {
+    display: block;
+}
+.notgift {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    color: red;
+    padding-top: 10px;
+    text-align: center;
+    width: 110px;
+    font-weight: 600;
+    font-size: 12pt
+}
+
+.thumb {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+.thumb.shake {
+    animation: wiggle 2.5s infinite;
+}
+.thumb.shake:hover {
+    animation: none;
+}
+.thumb.small {
+    height: 115px;
+}
+
+.thumb .thumb-partner-name {
+    text-transform: uppercase;
+}
+.thumb img.bg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 1px solid grey;
+}
+.thumb:hover .text-container {
+    bottom: 0;
+}
+
+.thumb .text-container {
+    transition: 0.1s all;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -40px;
+    background-size: 100% 120px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 14px;
+    padding: 23px 4px 0px 4px;
+    text-align: center;
+}
+.thumb.promotion .text-container {
+    background-image: url('../img/promotion-hover.png');
+}
+
+.thumb.exchangePoints .text-container,
+.thumb.promotionService .text-container {
+    background-image: url('../img/uudai-hover.png');
+}
+
+.thumb .text-container {
+    background-image: url('../images/quatang-hover.png');
+}
+.thumb .text-container p {
+    -webkit-line-clamp: 4;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    align-self: center;
+    height: 72px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 18px;
+    margin: 0;
+    padding-bottom: 5px;
+    line-height: 17px;
+}
+
+.thumb.small .text-container p {
+    font-size: 11px;
+}
+.goiuudai{height: 110px}
+.vanchuyen-container{width:200px; margin:auto}
+.vanchuyen-container img{height: 200px}
+.lockgift{position: absolute;left:0;top:0;width: 45%; opacity: 0.9}
+.vpoint{position: absolute; top:50px}
+.gudpoint{
+    position: relative;float: left;width: 40px;height: 40px;padding-top: 5px;min-width: 10px;
+    font-size: 12px;font-weight: 700;line-height: 1;color: #fff;text-align: center;white-space: nowrap;
+    vertical-align: middle;background-color:#e10987;border-radius: 25px;margin-top:5px;margin-left: 18%;
+}
+.gudpointfix{margin-left: 6px; background-color: #880953}
+.gudvpoint{
+    position: relative;float: left;width: 40px;height: 40px;padding-top: 5px;min-width: 10px;
+    font-size: 12px;font-weight: 700;line-height: 1;color: #fff;text-align: center;white-space: nowrap;
+    vertical-align: middle;background-color: #880953;border-radius: 25px;margin-top:5px;margin-left: 37%;
+}
+.gudvplusfix{margin-left:37%}

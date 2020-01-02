@@ -1,0 +1,264 @@
+.canvasHolder {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.phone-box {
+    position: absolute;
+    z-index: 2;
+    left: 300px;
+    top: 50px;
+    width: 0;
+    height: 0;
+    padding: 0;
+    visibility: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+    background: url("../images/bg-phone-box.png") center repeat;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+    font-size: 14px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.phone-box:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: -10px;
+    width: 10px;
+    height: 10px;
+    background: url("../images/phone-box-tooltip.png") center no-repeat;
+    z-index: 1;
+}
+
+.content-phone-box {
+    width: 274px;
+    height: 110px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.main-phone-box {
+    margin: 10px 0;
+}
+
+.main-phone-box a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-phone-box a:hover {
+    text-decoration: underline;
+}
+
+.get-phone-text {
+    position: relative;
+}
+
+.phone-text-box {
+    font-size: 12px;
+    color: #8a8a8a;
+    outline: none;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px 25px 5px 5px;
+}
+
+#btnGetPhone {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url("../images/paper-plane.png") center no-repeat;
+    position: absolute;
+    right: 6px;
+    top: 4px;
+    cursor: pointer;
+    z-index: 2;
+}
+#welcomeCanvas{
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    position: relative;
+}
+
+.close-phone-box {
+    display: block;
+    padding: 5px;
+    color: #d9d9d9;
+    font-size: 28px;
+    position: absolute;
+    right: -5px;
+    top: -24px;
+    z-index: 9;
+    cursor: pointer;;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.canvasHolder.active{
+    width: 237px;
+    height: 147px;
+    background: url('../images/main-box.png?v=1') center no-repeat;
+    left: 5px;
+}
+.phone-box.active{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    visibility: visible;
+    left: 0;
+    top: 0;
+    background: none;
+    border: 0;
+}
+.title-phone-box{
+    max-height: 45px;
+    overflow: hidden;
+}
+.phone-box.active:before,
+.phone-box.active .close-phone-box,
+.phone-box.active .title-phone-box,
+.phone-box.active .main-phone-box{
+    display: none;
+}
+.phone-box.active .content-text-hide{
+    display: block;
+}
+.phone-box .content-text-hide{
+    display: none;
+    position: absolute;
+    top: 54px;
+    width: 158px;
+    left: 76px;
+    font-size: 11px;
+    color: #fff;
+    text-align: left;
+}
+.phone-box .content-text-hide a{
+    color: #fff;
+    text-decoration: underline;
+}
+.phone-box .content-text-hide a:hover{
+    text-decoration: none;
+}
+.canvasHolder.active .content-phone-box{
+    visibility: visible !important;
+}
+.phone-box.active .phone-text-box{
+    background: transparent;
+}
+.phone-box.active .get-phone-text{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    border: 3px solid #db0404;
+    border-radius: 5px;
+    box-shadow: inset 0 0 8px 0 rgba(0,0,0,.4);
+    background: #fff;
+}
+.close-canvas{
+    display: block;
+    background: url("../images/close-canvas.png") center no-repeat;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: -20px;
+    display: none;
+    z-index: 1;
+}
+.canvasHolder.active .close-canvas{
+    display: block;
+}
+.inner-slide .more .title {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  border-top: solid 1px rgb(252, 67, 67);
+  padding: 5px;
+}
+.inner-slide a {text-decoration: none;}
+.inner-slide .more .price {
+  background: black;
+  padding: 5px 0px;
+  border-radius: 5px !important;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+/* rating button */
+.rate-single-star {
+    color: #72c02c;
+    position: absolute;
+    right: 7px;
+    top: -10px;
+
+
+}
+
+.rate-single-star span:hover {
+    color: rgba(169,214,169,1);
+    text-shadow: 0 1px 0 rgba(255,255,255,1) , 0 2px 0 rgba(255,255,255,1) , 0 3px 0 rgba(255,255,255,1) , 0 4px 0 rgba(255,255,255,1) , 0 5px 0 rgba(255,255,255,1) , 0 6px 1px rgba(0,0,0,0.0980392) , 0 0 5px rgba(0,0,0,0.0980392) , 0 1px 3px rgba(0,0,0,0.298039) , 0 3px 5px rgba(0,0,0,0.2) , 0 -5px 10px rgba(0,0,0,0.247059) , 0 -7px 10px rgba(0,0,0,0.2) , 0 -15px 20px rgba(0,0,0,0.14902) ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
+.rate-single-star span {
+    position: absolute;
+    top: 15px;
+    left: 7px;
+    color: red;
+
+}
+.rate-single-star span , .rate-single-star{
+    font-weight: bold;
+    font-size: 21px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    text-shadow: 0 1px 0 rgb(204, 204, 204), 0 2px 0 rgb(201, 201, 201), 0 3px 0 rgb(187, 187, 187), 0 4px 0 rgb(185, 185, 185), 0 5px 0 rgb(170, 170, 170), 0 6px 1px rgba(0, 0, 0, 0.0980392), 0 0 5px rgba(0, 0, 0, 0.0980392), 0 1px 3px rgba(0, 0, 0, 0.298039), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.247059), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.14902);
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+.box-content-header{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+}
+.box-content-img img  {
+    border-radius: 5px !important;
+}

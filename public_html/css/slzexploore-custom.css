@@ -1,0 +1,204 @@
+/*-----------------------------------------------------------------------------
+Table of contents
+This file includes your custom style
+
+*/
+#theme-setting {
+      position: fixed;
+      right: -245px;
+      top: 15%;
+      background: #ffffff;
+      border: 0;
+      width: 245px;
+      z-index: 999;
+      -webkit-transition: 0.4s all ease-in-out;
+      -moz-transition: 0.4s all ease-in-out;
+      -ms-transition: 0.4s all ease-in-out;
+      -o-transition: 0.4s all ease-in-out;
+      transition: 0.4s all ease-in-out;
+      -webkit-box-shadow: -1px 0px 2px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: -1px 0px 2px rgba(0, 0, 0, 0.1);
+      box-shadow: -1px 0px 2px rgba(0, 0, 0, 0.1);
+}
+#theme-setting .btn-theme-setting {
+      padding: 12px 12px 8px;
+    background-color: #3a3e6d;
+    position: absolute;
+    z-index: 999;
+    left: -34px;
+    top: 0;
+    box-shadow: -2px 0px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+#theme-setting .btn-theme-setting i {
+      font-size: 20px;
+      color: white;
+}
+#theme-setting .btn-theme-setting:hover,
+#theme-setting .btn-theme-setting:focus {
+      color: #333333;
+      outline: none;
+}
+#theme-setting .theme-setting-content.open {
+  max-height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#theme-setting .layout-options {
+      padding: 5px 20px 15px;
+      text-align: center;
+      border-bottom: 1px solid #e5e5e5;
+}
+#theme-setting .layout-options:last-child {
+    border-bottom: 0;
+}
+#theme-setting .layout-options .form-control {
+      border-radius: 0;
+      background-color: #FFFFFF;
+      border: 1px solid #dcdcdc;
+}
+#theme-setting .theme-setting-content .switcher-title {
+    padding: 15px 20px 15px 0;
+    color: #0D1721;
+    font-weight: 600;
+    text-transform: inherit;
+    text-align: center;
+    margin: 0;
+}
+#theme-setting .boxed-background-patterns ul,
+#theme-setting .boxed-background-images ul {
+      margin: 0;
+}
+#theme-setting .boxed-background-patterns ul > li,
+#theme-setting .boxed-background-images ul > li {
+      padding: 0 0 5px 5px;
+}
+#theme-setting .boxed-background-patterns ul > li:first-child,
+#theme-setting .boxed-background-images ul > li:first-child {
+      padding-left: 0;
+}
+#theme-setting .boxed-background-patterns ul > li > a > img,
+#theme-setting .boxed-background-images ul > li > a > img {
+      width: 30px;
+      height: 30px;
+      -webkit-box-shadow: 0px 0px 1px #D5D5D5;
+      -moz-box-shadow: 0px 0px 1px #D5D5D5;
+      box-shadow: 0px 0px 1px #D5D5D5;
+}
+#theme-setting .boxed-background-patterns ul > li > a > img:hover,
+#theme-setting .boxed-background-images ul > li > a > img:hover {
+    -webkit-box-shadow: 0px 0px 3px #D5D5D5;
+      -moz-box-shadow: 0px 0px 3px #D5D5D5;
+      box-shadow: 0px 0px 3px #D5D5D5;
+}
+#theme-setting #layout-wide.btn,
+#theme-setting #layout-boxed.btn,
+#theme-setting #menu-static.btn,
+#theme-setting #menu-fixed.btn {
+    border-radius: 0;
+    background-color: transparent;
+    border-color: #333333;
+    color: #333333;
+    padding: 7px 12px 7px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 12px;
+}
+#theme-setting #layout-wide.btn.active,
+#theme-setting #layout-boxed.btn.active,
+#theme-setting #menu-static.btn.active,
+#theme-setting #menu-fixed.btn.active,
+#theme-setting #layout-wide.btn:hover,
+#theme-setting #layout-boxed.btn:hover,
+#theme-setting #menu-static.btn:hover,
+#theme-setting #menu-fixed.btn:hover,
+#theme-setting #layout-wide.btn:focus,
+#theme-setting #layout-boxed.btn:focus,
+#theme-setting #menu-static.btn:focus,
+#theme-setting #menu-fixed.btn:focus {
+      box-shadow: none;
+      background-color: #181b20;
+      color: #ffffff;
+}
+#theme-setting .boxed-option {
+    display: none;
+}
+.skin-site ul {
+  display: block;
+}
+.skin-site ul li {
+  padding: 2px 2px;
+}
+.skin-site ul li a {
+  height: 30px;
+  width: 30px;
+  display: block;
+  border-radius: 3px;
+  transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+.skin-site ul li a.active,
+.skin-site ul li a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+.skin-site ul li a[data-color="color-1"] {
+  background-color: #fd0;
+}
+.skin-site ul li a[data-color="color-2"] {
+  background-color: #2aacff;
+}
+.skin-site ul li a[data-color="color-3"] {
+  background-color: #E91E63;
+}
+.skin-site ul li a[data-color="color-4"] {
+  background-color: #86bc42;
+}
+.skin-site ul li a[data-color="color-5"] {
+  background-color: #50bcb6;
+}
+.skin-site ul li a[data-color="color-6"] {
+  background-color: #c74a73;
+}
+.skin-site ul li a[data-color="color-7"] {
+  background-color: #f66666;
+}
+.skin-site ul li a[data-color="color-8"] {
+  background-color: #ffb0b0;
+}
+.skin-site ul li a[data-color="color-9"] {
+  background-color: #ff9c00;
+}
+.skin-site ul li a[data-color="color-10"] {
+  background-color: #F1C40F;
+}
+.purchase-wrap {
+  position: absolute;
+  top: -59px;
+  padding: 10px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 3px;
+}
+.purchase-wrap .purchase-btn {
+  display: block;
+  background-color: #fd0;
+  color: #3c3c3c;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 500;
+  border-radius: 25px;
+  border-bottom: 3px solid #e4c621;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.purchase-wrap .purchase-btn:hover {
+  color: #fff;
+  background-color: #3c3c3c;
+  border-color: #000000;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.13);
+}

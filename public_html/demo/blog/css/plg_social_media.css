@@ -1,0 +1,159 @@
+.plg_social_media_item {
+	display:none;
+	text-align:left;
+	clear: both;
+	overflow:hidden;
+	margin-top:10px;
+}
+
+.plg_social_media_item a {
+	text-indent: 0;
+	color:#C9C9C9;
+	margin-top:-1px;
+	font-weight:600;
+}
+
+.plg_social_media_item_facebook{
+	height: 13px;
+	overflow: hidden;
+	float: left;
+	background:url('../images/social-sprite.png') no-repeat;
+	width:30px;
+	border-right:2px solid #C9C9C9;
+	padding-right:15px;
+}
+
+.plg_social_media_item_facebook a{
+	height: 13px;
+	float: left;
+	background:url('../images/social-sprite.png') no-repeat;
+	font-size:0px;
+}
+
+.plg_social_media_item_facebook a:hover{
+	background:url('../images/social-sprite.png') no-repeat 0 -13px;
+}
+
+.plg_social_media_item_twitter {
+	height: 13px;
+	overflow: hidden;
+	float: left;
+	width:30px;
+	border-right:2px solid #C9C9C9;
+	padding-right:15px;
+	padding-left:10px;
+}
+
+.plg_social_media_item_twitter a{
+	height: 13px;
+	float: left;
+	background:url('../images/social-sprite.png') no-repeat 0 -26px;
+	width:30px;
+	font-size:0px;
+}
+
+.plg_social_media_item_twitter a:hover {
+	background:url('../images/social-sprite.png') no-repeat 0 -39px;
+}
+
+.plg_social_media_item_count_facebook{
+	float: left;
+}
+
+.plg_social_media_item_count_twitter{
+	float: left;
+}
+
+.plg_social_media_item_coment_k2{
+	height: 14px;
+	overflow: hidden;
+	float: left;
+	padding-right:15px;
+	padding-left:10px;
+}
+
+.plg_social_media_item_coment_k2 a{
+	height: 14px;
+	float: left;
+	background:url('../images/icon-coment.png') no-repeat 1px;
+	font-size:0px;
+	margin-top:0px;
+}
+
+.plg_social_media_item_coment_k2 a:hover{
+	background:url('../images/icon-coment-hover.png') no-repeat 1px;
+}
+
+.plg_social_media_share_facebook{
+	float: left;
+	margin-right: 10px;
+}
+
+.plg_social_media_like-facebook{
+	float: left;
+	margin-right: 10px;
+	width:47px;
+}
+
+.plg_social_media_twitter{
+	float: left;
+	margin-right: 10px;
+}
+
+.plg_social_media_item_coment_k2 a{
+	float: left;
+	margin-right: 5px;
+}
+
+.plg_social_media_item_count_coment_k2{
+	font-size: 15px;
+	margin-left: 22px;
+}
+
+.plg_social_media_item_count_facebook{
+	font-size: 15px;
+	margin-left: 22px;
+}
+
+.plg_social_media_item_count_twitter{
+	font-size: 15px;
+	margin-left: 22px;
+}
+
+.fb_box_count{
+	height:61px;
+	overflow:hidden;
+}
+
+.fb_button_count{
+	height: 20px;
+	overflow: hidden;
+	width: 114px;
+}
+
+#hikashop_category_information_menu_915 .plg_social_media_share_facebook{
+	margin-left:-11px;
+}
+
+#hikashop_category_information_menu_915 .plg_social_media_like-facebook{
+	margin-left: 20px;
+	width: 56px;
+}
+
+#hikashop_category_information_menu_915 .plg_social_media_twitter{
+	margin-left: -9px;
+}
+
+#sj_gridslider_21419172451421465059 .plg_social_media_item_facebook{
+	padding-right:7px;
+}
+
+#sj_gridslider_21419172451421465059 .plg_social_media_item_twitter{
+	padding-right: 7px;
+	padding-left: 4px;
+}
+
+#sj_gridslider_21419172451421465059 .plg_social_media_item_coment_k2{
+	padding-right: 0px;
+	padding-left: 3px;
+}

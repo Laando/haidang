@@ -1,0 +1,53 @@
+{
+  "name": "jquery-tablesort",
+  "version": "0.0.11",
+  "description": "A simple, lightweight jQuery plugin for creating sortable tables.",
+  "main": "jquery.tablesort.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylefox/jquery-tablesort.git"
+  },
+  "author": {
+    "name": "Kyle Fox",
+    "email": "kylefox@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kylefox/jquery-tablesort/issues"
+  },
+  "homepage": "https://github.com/kylefox/jquery-tablesort#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.1"
+  },
+  "gitHead": "bbd1a68ce69eab940e12d17ca0ef6d34a3aeb4a8",
+  "_id": "jquery-tablesort@0.0.11",
+  "_shasum": "b1167542ff0001e8bdd6a64e1c58d92208228301",
+  "_from": "jquery-tablesort@*",
+  "_npmVersion": "3.10.3",
+  "_nodeVersion": "6.4.0",
+  "_npmUser": {
+    "name": "kylefox",
+    "email": "kylefox@gmail.com"
+  },
+  "dist": {
+    "shasum": "b1167542ff0001e8bdd6a64e1c58d92208228301",
+    "tarball": "https://registry.npmjs.org/jquery-tablesort/-/jquery-tablesort-0.0.11.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "kylefox",
+      "email": "kylefox@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/jquery-tablesort-0.0.11.tgz_1475352547052_0.8470058576203883"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/jquery-tablesort/-/jquery-tablesort-0.0.11.tgz"
+}

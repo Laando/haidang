@@ -1,0 +1,204 @@
+  
+    .hd-tour-index {
+    padding: 10px;
+    margin-top: 20px;
+    clear: both!important
+}
+    .banner-background {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .banner-background:before {
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #000000;
+        opacity: .7;
+        position: absolute;
+        z-index: 1;
+    }
+    .banner-background img {
+        width: 100%;
+     
+        object-fit: cover;
+    }
+    .banner-info {
+        position: relative;
+        padding: 270px 0 210px;
+        z-index: 2;
+        width: 100%;
+        height: 700px;
+    }
+    .banner__text--small {
+        text-align: center;
+        font-size: 25px;
+        color: #ffffff;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+    .banner-button {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .banner-button a {
+        color: #ffffff;
+        line-height: 50px;
+        background: #1879b6;
+        display: inline-block;
+        padding: 0 40px;
+        margin: 0 10px;
+        margin-bottom: 20px;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+.slogan-background {
+    position: absolute;
+    width: 100%;
+    clear: both;
+    float: left;
+}
+.slogan-background:before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000000;
+    opacity: 0.6;
+    position: absolute;
+}
+.slogan-background img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.slogan-content {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    padding: 0;
+    width: 100%;
+}
+.slogan-text {
+    width: 700px;
+    font-size: 40px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+}
+.slogan-icon {
+    font-size: 45px;
+    margin: 40px auto;
+    color: #fb2e1c;
+    position: relative;
+    width: 125px;
+    text-align: center;
+    line-height: 125px;
+    cursor: pointer;
+}
+.slogan-icon:before {
+    content: "";
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border-radius: 125px;
+    background: #ffffff;
+    z-index: 0;
+    opacity: 0.3;
+    left: -5px;
+}
+.slogan-icon i {
+    z-index: 5;
+    position: relative;
+}
+.slogan-icon:after {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 110px;
+    background: #ffffff;
+    left: 8px;
+    top: 12px;
+    z-index: 1;
+}
+.slogan-text {
+    width: 700px;
+    font-size: 40px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+}
+.slogan {
+    width: 100%;
+    clear: both;
+    float: left;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .slogan-text {
+    font-size: 30px;
+    line-height: 40px;
+    width: auto;
+    height: 80px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.slogan-icon {
+    margin: 10px auto;
+}
+.banner-info {
+    height: 600px;
+    padding: 172px 0;
+}
+.banner__text--small {
+    padding: 0 20px;
+}
+.banner__text--big {
+    font-size: 50px;
+}
+.slogan {
+    height: 400px;
+}
+.slogan-background img {
+    height: 100%;
+    width: auto;
+}
+
+}
+@media only screen and (max-width: 479px) {
+    .slogan-text {
+    font-size: 20px;
+}
+.banner {
+    margin-top: 80px;
+}
+.banner-info {
+    height: auto;
+    padding: 53px 0;
+}
+.banner__text--small {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.banner__text--big {
+    font-size: 40px;
+}
+}

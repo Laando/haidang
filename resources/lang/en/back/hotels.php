@@ -1,0 +1,33 @@
+<?php
+
+return [
+	'dashboard' => 'Thao tác HOTEL',
+	'hotels' => 'hotels',
+	'add' => 'Tạo mới HOTEL ',
+	'all' => 'Tất cả',
+	'title' => 'Tên' ,
+    'priority' => 'Ưu tiên',
+    'fails' => 'Có lỗi ! Vui lòng làm mới trang hay liên hệ admin !',
+    'see' => 'Chi tiết',
+    'edit' => 'Cập nhật',
+    'destroy' => 'Xóa' ,
+    'destroy-warning' => 'Bạn có chắc muốn xóa HOTEL này ?',
+    'creation' => 'Tạo mới',
+    'description'=> 'Giới thiệu',
+    'content'=>'Nội dung',
+    'stored' =>'HOTEL tạo mới thành công',
+    'address' => 'Địa chỉ',
+    'phone' => 'Điện thoại' ,
+    'fax' => 'Số fax',
+    'condition' => 'Chính sách',
+    'information' => 'Thông tin hữu ích',
+    'star' => 'Chuẩn sao ',
+    'checkin' => 'Thời gian check-in',
+    'checkout' => 'Thời gian check-out',
+    'person' => 'Số người',
+    'price' => 'Giá',
+    'p_price' => ' Giá khuyến mãi',
+    'seokeyword' =>'Keyword tag',
+    'seotitle' =>'Title tag',
+    'seodescription' =>'Description tag'
+];
